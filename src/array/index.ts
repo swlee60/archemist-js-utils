@@ -6,6 +6,6 @@ export function moveToAt(array: any[], index: number, predicate: (item:any) => b
   return [
     ...filteredArray.slice(0, index),
     ...movingItems,
-    ...filteredArray.slice(index + movingItems.length),
+    ...filteredArray.slice(index, filteredArray.length),
   ]
 }
