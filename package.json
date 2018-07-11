@@ -1,6 +1,6 @@
 {
   "name": "archemist-js-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Javascript utils for archemists",
   "scripts": {
     "build": "tsc"
@@ -9,12 +9,12 @@
     "type": "git",
     "url": "https://github.com/swlee60/archemist-js-utils"
   },
-  "main": "./dist/archemist-js-utils.js",
+  "main": "./dist/index.js",
   "keywords": [
     "javascript",
     "utils",
-    "archemist",
+    "archemist"
   ],
   "author": "Naver Archemists",
-  "license": "MIT",
+  "license": "MIT"
 }
