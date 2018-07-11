@@ -5,6 +5,6 @@ function moveToAt(array, index, predicate) {
     if (movingItems.length === 0)
         return array;
     var filteredArray = array.filter(function (item) { return !predicate(item); });
-    return filteredArray.slice(0, index).concat(movingItems, filteredArray.slice(index + movingItems.length));
+    return filteredArray.slice(0, index).concat(movingItems, filteredArray.slice(index, filteredArray.length));
 }
 exports.moveToAt = moveToAt;
