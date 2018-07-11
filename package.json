@@ -1,6 +1,6 @@
 {
   "name": "archemist-js-utils",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "Javascript utils for archemists",
   "scripts": {
     "build": "tsc",
